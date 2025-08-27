@@ -1,0 +1,20 @@
+# Solution 1:
+example = "11:59:02, June 7th"
+sol = example[3:5]
+print("The minute in this date is", sol)
+
+# Solution 2:
+a = "this is the first example"
+b = "nothing"
+length_a = len(a) - a.count(" ")
+length_b = len(b) - b.count(" ")
+answer = max(length_a, length_b)
+print("The longest string has",answer,"characters in total")
+
+# Solution 3:
+f1 = "MAD-BCN"
+f2 = "MAD-LON"
+f3 = "LIS-MAD"
+total = f1+f2+f3
+solution = total.count("MAD-")
+print("There are", solution, "flights starting in Madrid")
